@@ -1,0 +1,12 @@
+from Coche import Coche
+from Vehiculo import Vehiculo
+
+
+vehiculo_generico = Vehiculo("Toyota", "Corolla")
+mi_coche = Coche("Ford", "Focus", 4)
+
+# Mostrar información de los vehículos
+print("Información del Vehículo Genérico:")
+vehiculo_generico.mostrar_info()
+print("\nInformación de Mi Coche:")
+mi_coche.mostrar_info()
