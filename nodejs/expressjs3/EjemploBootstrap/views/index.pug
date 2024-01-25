@@ -1,0 +1,50 @@
+extends layout
+
+block content
+  #carouselExample.carousel.slide
+    .carousel-inner
+      .carousel-item.active
+        img.d-block.w-100(style='height: 300px;', src='/images/v1.jpg', alt='First slide')
+      .carousel-item
+        img.d-block.w-100(style='height: 300px;', src='/images/v2.jpg', alt='Second slide')
+      .carousel-item
+        img.d-block.w-100(style='height: 300px;', src='/images/v3.jpg', alt='Third slide')
+
+    button.carousel-control-prev(type='button', data-bs-target='#carouselExample', data-bs-slide='prev')
+      span.carousel-control-prev-icon(aria-hidden='true')
+      span.visually-hidden Previous
+
+    button.carousel-control-next(type='button', data-bs-target='#carouselExample', data-bs-slide='next')
+      span.carousel-control-next-icon(aria-hidden='true')
+      span.visually-hidden Next
+
+  .row
+    .col-6
+      p Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. ...
+    .col-6
+      p Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. ...
+
+  .row
+    .col-12.col-md-3.offset-md-2
+      .card
+        img.card-img-top(style='height: 100px;', src='/images/d1.jpg', alt='Card image cap')
+        .card-body
+          h5.card-title Card title
+          p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+          a.btn.btn-primary(href='#') Go Go Go
+
+    .col-12.col-md-3
+      .card
+        img.card-img-top(style='height: 100px;', src='/images/d2.jpg', alt='Card image cap')
+        .card-body
+          h5.card-title Card title
+          p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+          a.btn.btn-primary(href='#') Go Go Go
+
+    .col-12.col-md-3
+      .card
+        img.card-img-top(style='height: 100px;', src='/images/d3.jpg', alt='Card image cap')
+        .card-body
+          h5.card-title Card title
+          p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+          a.btn.btn-primary(href='#') Go Go Go

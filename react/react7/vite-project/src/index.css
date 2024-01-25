@@ -1,0 +1,15 @@
+body {
+  margin: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+button {
+  margin: 10px;
+}
+
+.btnDiv {
+  width: 35%;
+  margin-left: 295px;
+}

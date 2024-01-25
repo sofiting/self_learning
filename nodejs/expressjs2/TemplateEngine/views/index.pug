@@ -1,0 +1,36 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  h1 hello sofia
+  h2 hello sofia2 
+  div 
+    p Contenido de texto 
+
+  div 
+    a(href="http://www.google.com", class="", id="") Google.com
+    a#enlaceYoutube.enlace.principal(href="http://www.youtube.com") Youtube
+
+  div
+    p= title
+    p #{title} es un framework de NodeJs
+
+  div 
+    if available
+      p Está disponible 
+    else 
+      p No está disponible
+
+
+  div 
+    ul
+      each herramienta in herramientas
+        li Herrmienta: #{herramienta}
+      else 
+        li No hay nada
+
+  div 
+    ul 
+      - for(let i = 0; i < herramientas.length; i++)
+        li= herramientas[i]

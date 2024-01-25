@@ -1,0 +1,91 @@
+[
+  {
+    "id": 1,
+    "nombre": "Portátil",
+    "descripcion": "Portátil de última generación con pantalla táctil y procesador rápido.",
+    "precio": 999.99,
+    "stock": 50,
+    "fabricante": {
+      "nombre": "Empresa XYZ",
+      "pais": "Estados Unidos"
+    }
+  },
+  {
+    "id": 2,
+    "nombre": "Smartphone avanzado",
+    "descripcion": "Un smartphone de última generación con características avanzadas y rendimiento excepcional.",
+    "categoria": "Electrónica",
+    "precio": 799.99,
+    "descuento": 0.15,
+    "fechaLanzamiento": "2023-03-15",
+    "coloresDisponibles": ["Negro", "Plateado", "Azul", "Blanco"],
+    "especificaciones": {
+      "pantalla": {
+        "tipo": "AMOLED",
+        "tamano": 6.5,
+        "resolucion": "1080x2400"
+      },
+      "procesador": {
+        "marca": "Snapdragon",
+        "modelo": "865",
+        "velocidad": "2.84 GHz"
+      },
+      "almacenamiento": {
+        "tipo": "SSD",
+        "capacidad": "128 GB"
+      },
+      "camara": {
+        "principal": {
+          "resolucion": "48 MP",
+          "apertura": "f/1.8"
+        },
+        "frontal": {
+          "resolucion": "20 MP",
+          "apertura": "f/2.0"
+        }
+      },
+      "bateria": {
+        "capacidad": "4000 mAh",
+        "tipo": "Ion de litio"
+      }
+    },
+    "calificaciones": {
+      "promedio": 4.8,
+      "total": 120,
+      "comentarios": [
+        {
+          "usuario": "Cliente123",
+          "puntuacion": 5,
+          "comentario": "¡Increíble! Superó mis expectativas."
+        },
+        {
+          "usuario": "Usuario456",
+          "puntuacion": 4.5,
+          "comentario": "Buena relación calidad-precio."
+        },
+        {
+          "usuario": "OpinionesTech",
+          "puntuacion": 4.2,
+          "comentario": "Especificaciones impresionantes."
+        }
+      ]
+    },
+    "envio": {
+      "disponible": true,
+      "tiempoEstimado": "1-3 días hábiles",
+      "costoNacional": 9.99,
+      "costoInternacional": 29.99
+    }
+  },
+  {
+    "id": 3,
+    "nombre": "Auriculares Inalámbricos",
+    "descripcion": "Auriculares inalámbricos con cancelación de ruido y larga duración de batería.",
+    "precio": 129.99,
+    "stock": 100,
+    "fabricante": {
+      "nombre": "AudioTech",
+      "pais": "Alemania"
+    }
+  }
+]

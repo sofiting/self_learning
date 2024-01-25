@@ -1,0 +1,24 @@
+//pasos para crear PrimeraApp
+// npm install -g express-generator
+//express --no-view --git PrimeraApp
+
+para usar motores de plantillas en ExpressJs 
+usamos PUG ( una de las herramientas)
+
+con este comando v aa generar una carpeta TemplateEngine
+express --view=pug --git TemplateEngine
+npm init
+
+ejemplo de vista Bootstrap
+express --view=pug --git EjemploBootstrap
+npm install
+
+socket para poder comunicar cliente servidor
+express --view=pug --git Chat
+npm install
+npm install socket.io
+
+cd C:\Users\dista\Desktop\lenguaje\nodejs\expressjs4\Chat
+git init
+
+git add .

@@ -1,0 +1,7 @@
+vite +react 
+
+npm create vite@latest vite-project
+
+ cd vite-project
+  npm install
+  npm run dev

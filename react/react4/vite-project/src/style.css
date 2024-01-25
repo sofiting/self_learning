@@ -1,0 +1,9 @@
+body,
+html {
+  color: aliceblue;
+  background-color: black;
+}
+
+.font {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
