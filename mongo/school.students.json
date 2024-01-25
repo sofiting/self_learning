@@ -1,0 +1,95 @@
+[{
+  "_id": {
+    "$oid": "65a311f6728aa163ad494d11"
+  },
+  "name": "sofia",
+  "age": 23,
+  "gpa": 3.5,
+  "fullTime": false
+},
+{
+  "_id": {
+    "$oid": "65a312b6728aa163ad494d12"
+  },
+  "name": "Patrik",
+  "age": 34,
+  "gpa": 1.5,
+  "fullTime": false
+},
+{
+  "_id": {
+    "$oid": "65a312b6728aa163ad494d13"
+  },
+  "name": "Sandy",
+  "age": 23,
+  "gpa": 4,
+  "fullTime": false
+},
+{
+  "_id": {
+    "$oid": "65a312b6728aa163ad494d14"
+  },
+  "name": "Gary",
+  "age": 18,
+  "gpa": 5.6,
+  "fullTime": false
+},
+{
+  "_id": {
+    "$oid": "65a31352ef92941efaf30889"
+  },
+  "name": "SpongeBob",
+  "age": 15,
+  "gpa": 3.5,
+  "fullTime": false
+},
+{
+  "_id": {
+    "$oid": "65a3138cef92941efaf3088b"
+  },
+  "name": "juan",
+  "age": 45,
+  "gpa": 1.9,
+  "fullTime": false
+},
+{
+  "_id": {
+    "$oid": "65a3138cef92941efaf3088c"
+  },
+  "name": "lucia",
+  "age": 15,
+  "gpa": 1.9,
+  "fullTime": false
+},
+{
+  "_id": {
+    "$oid": "65a3138cef92941efaf3088d"
+  },
+  "name": "gema",
+  "age": 45,
+  "gpa": 1.9,
+  "fullTime": false
+},
+{
+  "_id": {
+    "$oid": "65a31522728aa163ad494d15"
+  },
+  "name": "dania",
+  "age": 33,
+  "gpa": 4.5,
+  "fullTime": false,
+  "registerDate": {
+    "$date": "2024-01-13T22:56:34.671Z"
+  },
+  "gradutionDate": null,
+  "courses": [
+    "React",
+    "NodeJs",
+    "MongoDB"
+  ],
+  "address": {
+    "street": "123 Fake St",
+    "city": "Florita",
+    "zip": 23123
+  }
+}]

@@ -1,0 +1,125 @@
+show database :
+show dbs 
+
+select database, if doesn't exist it'll be created:
+use databasename
+
+create a collection:
+db.createCollection("students")
+
+delete database:
+ db.dropDatabase()
+
+insert one data:
+ db.students.insertOne({name:"sofia",age:23,gpa:3.5})
+
+or
+
+db.students.insertOne({ name:"dania",
+			age:33,
+			gpa:4.5,
+			fullTime:true,
+			registerDate:new Date(),
+			gradutionDate:null,
+			courses:["React","NodeJs","MongoDB"],
+			address:{street:"123 Fake St",
+				 city:"Florita",
+				 zip:23123}})
+
+insert many datas:
+db.students.insertMany([
+	{name:"Patrik",
+	age:34,
+	gpa:1.5},
+
+	{name:"Sandy",
+	age:23,
+	gpa:4.0},
+
+	{name:"Gary",
+	age:18,
+	gpa:5.6}
+   ])
+
+get a collection data:
+db.students.find()
+
+get ordered collection: 
+(1 ordered , -1 reversed , and you can set which field you want to sort, like age):
+db.students.find().sort({name:1}) 
+
+limit how many data you wanna get:
+db.students.find().limit(2)
+OR
+db.students.find().sort({name:1}).limit(3)
+
+select a data with specification:
+db.students.find({name:"sofia"})
+db.students.find({age:23})
+
+get all student name (return id defaultly):
+db.students.find({},{name:true})
+
+get all student name without id:
+db.students.find({},{_id:false,name:true})
+
+
+true is the field you want to get and false no
+db.students.find({},{_id:false,name:true,age:true})
+
+- db.students.find({query},{proyection})
+
+Update: (filter,update(if no exits , add)
+db.students.updateOne({name:"lucia"},{$set:{fullTime:true}})
+
+unset: remove fulltime field
+db.students.updateOne({name:"lucia"},{$unset:{fullTime:true}})
+
+Update many data :
+db.students.updateMany({},{$set:{fullTime:false}})
+
+
+db.students.updateMany(
+  // Filter: Selects documents where the "fullTime" key does not exist
+  { fullTime: { $exists: false } },
+
+  // Update: Sets the value of "fullTime" to true for the selected documents
+  { $set: { fullTime: true } }
+);
+
+
+Delete One data:
+db.students.deleteOne({name:"lucia"})
+
+delete many data:
+db.students.deleteMany({fulllTime:false})
+
+
+delete fields which they don't have fullTime field
+db.students.deleteMany({fulllTime:{$exists:false}})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
