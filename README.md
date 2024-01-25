@@ -1,1 +1,1 @@
-# self_study
+# self_learning
